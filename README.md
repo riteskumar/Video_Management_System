@@ -6,7 +6,6 @@ This project is a full-stack Video Management System with a React + Vite fronten
 
 ## Backend (Flask)
 
-
 ### Setup
 
 1. **Install dependencies:**
