@@ -66,6 +66,7 @@ function Dashboard() {
   const handleManualRefresh = () => {
     loadData(true);
   };
+  console.log(stats)
 
   return (
     <div className="dashboard">
@@ -94,7 +95,7 @@ function Dashboard() {
       {!loading && !error && (
         <>
           <div className="dashboard-stats">
-            <div className="stat-card">
+            {/* <div className="stat-card">
               <div className="stat-value">{stats.totalStreams}</div>
               <div className="stat-label">Total Streams</div>
             </div>
@@ -105,7 +106,7 @@ function Dashboard() {
             <div className="stat-card">
               <div className="stat-value">{stats.totalAlerts}</div>
               <div className="stat-label">Total Alerts</div>
-            </div>
+            </div> */}
           </div>
 
           <div className="dashboard-content">
